@@ -67,7 +67,7 @@ class NubelaService:
 
 
 if __name__ == '__main__':
-    company_id = 'inhersight'
+    company_id = 'microsoft'
     company_profile = NubelaService.get_company_profile(company_id=company_id)
     print(company_profile)
 
